@@ -1,1 +1,22 @@
 {{yield}}
+
+<div class="new-answer-form">
+  <form>
+    <div class="form-group">
+      <label for="username">Username</label>
+      {{input class="form-control" value=username id="username"}}
+    </div>
+
+    <div class="form-group">
+      <label for="date">Date</label>
+      {{input class="form-control" value=date id="date"}}
+    </div>
+
+    <div class="form-group">
+      <label for="content">Content</label>
+      {{input class="form-control" value=content id="content"}}
+    </div>
+
+    <button class="btn btn-primary" {{action 'saveAnswer'}}>Save</button>
+  </form>
+</div>

@@ -1,0 +1,56 @@
+/***********************
+-------Global--------
+***********************/
+body{
+  background-image: url('images/background.jpeg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.posted-answer {
+  text-align:left;
+}
+
+nav.container {
+  padding:0px;
+}
+
+.container, .jumbotron {
+  padding:2rem;
+  background-color:rgba(255,255,255,0.8);
+}
+
+.question-jumbotron{
+  min-height:250px;
+}
+
+.new-question {
+  text-align: center;
+}
+
+.new-question-form {
+  text-align: left;
+}
+
+.segment{
+  height:33%;
+  padding-top:1.2rem;
+}
+
+.glyphicon {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.glyphicon:hover{
+  color:darkblue;
+  text-decoration:underline;
+}
+
+.jumbotron {
+  text-align:center;
+}
+
+.answer{
+  width:50%;
+}
