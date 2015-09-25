@@ -1,0 +1,21 @@
+{{yield}}
+
+<div class="col-md-4">
+  <div class="jumbotron question-jumbotron" style="background-color:rgba(240,240,240,0.8);">
+
+    <div class="segment">
+      <h3>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h3>
+    </div>
+
+    <div class="segment">
+      <h5> by: <em>{{question.author}}</em></h5>
+    </div>
+
+    <div class="segment">
+      {{update-question question=question update="update"}}
+      <span title="delete" {{action 'delete' question}} class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+
+    </div>
+
+  </div>
+</div>

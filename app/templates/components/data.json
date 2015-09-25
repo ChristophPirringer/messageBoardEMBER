@@ -1,0 +1,45 @@
+{ "blogposts": [{
+    "date": "today",
+    "author": "me",
+    "title": "15 ways to fail at ember",
+    "tag": "coding",
+    "content": "We only just begun, but bugs are EVERYWHERE!",
+    "picture": "http://cdn.orkin.com/images/other/stinkbug_285.jpg",
+    "rating":0
+  }, {
+    "date": "yesterday",
+    "author": "him",
+    "title": "15 ways to win at ember",
+    "tag": "coding",
+    "content": "We only just begun, but.... no bugs?!",
+    "picture": "http://cdn.orkin.com/images/other/stinkbug_285.jpg",
+    "rating":0
+  }, {
+    "date": "2000BC",
+    "author": "notme",
+    "title": "15 ways not to have ember",
+    "tag": "coding",
+    "content": "We don't have ember, but we got bugs!",
+    "picture": "http://cdn.orkin.com/images/other/stinkbug_285.jpg",
+    "rating":0
+  }, {
+    "date": "3000AD",
+    "author": "nothim",
+    "title": "15 ways to excavate at ember",
+    "tag": "coding",
+    "content": "We only just found ember, but.... WTF is this?!",
+    "picture": "http://cdn.orkin.com/images/other/stinkbug_285.jpg",
+    "rating":0
+  }, {
+    "date": "2016",
+    "author": "nutus",
+    "title": "15 ways to forget ember",
+    "tag": "coding",
+    "content": "I'd rather have bugs than ember!",
+    "picture": "http://cdn.orkin.com/images/other/stinkbug_285.jpg",
+    "rating":0
+  }],
+
+  "comments": [{
+  }]
+}

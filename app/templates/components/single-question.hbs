@@ -1,0 +1,28 @@
+{{yield}}
+
+<h1>{{question.title}}</h1>
+
+Written by <em>{{question.author}}</em>
+
+<p>
+  {{question.content}}
+</p>
+
+<div class="jumbotron answer answerlistlist">
+
+
+  {{#each question.answers as |answer|}}
+    <div class="posted-answer">
+      <h2>{{answer.username}}</h2>
+      <h5><em>{{answer.date}}</em></h5>
+      <p>{{answer.content}}</p>
+      <span title="delete" {{action 'deleteAnswer' answer}} class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+      {{edit-answer answer=answer editAnswer="editAnswer"}}
+    </div>
+  {{/each}}
+
+</div>
+
+<div class="jumbotron answer answerform">
+  {{new-answer saveAnswer="saveAnswer" question=question}}
+</div>
