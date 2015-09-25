@@ -3,7 +3,7 @@
 <h1>{{question.title}}</h1>
 
 <p>
-Written by <em>{{question.author}}</em>  
+Written by <em>{{question.author}}</em>
 </p>
 
 <p>
@@ -12,7 +12,7 @@ Written by <em>{{question.author}}</em>
 
 <div class="jumbotron answer answerlistlist">
 
-
+  <h3>Answers to {{question.author}}'s inquiry:</h3><br>
   {{#each question.answers as |answer|}}
     <div class="posted-answer">
       <h2>{{answer.username}}</h2>
