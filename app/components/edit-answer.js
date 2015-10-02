@@ -15,7 +15,7 @@ export default Ember.Component.extend({
         username: this.get('username'),
         date: this.get('date'),
         content: this.get('content')
-      }
+      };
       this.set('editAnswerForm', false);
       this.sendAction('editAnswer', answer, params);
     }

@@ -16,7 +16,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         content: this.get('content')
       };
-      this.set('addNewQuestion', false),
+      this.set('addNewQuestion', false);
       this.sendAction('save', params);
     }
   }
